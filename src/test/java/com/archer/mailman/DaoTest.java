@@ -1,8 +1,8 @@
 package com.archer.mailman;
 
-import com.archer.mailman.dao.CompanyDao;
-import com.archer.mailman.db.domain.CompanyEntity;
-import com.archer.mailman.service.CompanyService;
+import com.github.lifequote.mailman.dao.CompanyDao;
+import com.github.lifequote.mailman.domain.CompanyEntity;
+import com.github.lifequote.mailman.service.CompanyService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

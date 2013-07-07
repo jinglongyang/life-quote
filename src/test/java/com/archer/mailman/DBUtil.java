@@ -1,5 +1,5 @@
 package com.archer.mailman;
-//package com.archer.mailman.dao;
+//package com.github.lifequote.mailman.dao;
 //
 //import java.io.IOException;
 //import java.net.UnknownHostException;
@@ -12,8 +12,8 @@ package com.archer.mailman;
 //import org.codehaus.jackson.map.JsonMappingException;
 //import org.codehaus.jackson.map.ObjectMapper;
 //
-//import com.archer.mailman.common.util.CommonUtil;
-//import com.archer.mailman.db.domain.UserEntity;
+//import com.github.lifequote.mailman.util.CommonUtils;
+//import com.github.lifequote.mailman.domain.UserEntity;
 //import com.mongodb.BasicDBObject;
 //import com.mongodb.DB;
 //import com.mongodb.DBCollection;
@@ -44,7 +44,7 @@ package com.archer.mailman;
 //			JsonMappingException, IOException {
 //		UserEntity ue = new UserEntity();
 //		ue.setEmail("whatever@gmail.com");
-//		ue.setGuid(CommonUtil.generateUid());
+//		ue.setGuid(CommonUtils.generateUid());
 //		String json = mapper.writeValueAsString(ue);
 //		DBObject dbObject = (DBObject) JSON.parse(json);
 //		collection.insert(dbObject);
@@ -55,7 +55,7 @@ package com.archer.mailman;
 //			JsonMappingException, IOException {
 //		UserEntity ue = new UserEntity();
 //		ue.setEmail("whatever123123@gmail.com");
-//		ue.setGuid(CommonUtil.generateUid());
+//		ue.setGuid(CommonUtils.generateUid());
 //
 //		JacksonDBCollection<UserEntity, String> coll = JacksonDBCollection
 //				.wrap(collection, UserEntity.class, String.class);

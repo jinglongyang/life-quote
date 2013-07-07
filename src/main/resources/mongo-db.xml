@@ -33,6 +33,6 @@
         <property name="writeResultChecking" value="EXCEPTION"/>
     </bean>
 
-    <mongo:repositories base-package="com.archer.mailman.dao">
+    <mongo:repositories base-package="com.github.lifequote.mailman.dao">
     </mongo:repositories>
 </beans>
